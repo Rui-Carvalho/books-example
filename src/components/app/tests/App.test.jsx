@@ -4,7 +4,7 @@ import App from '../App';
 
 describe('App component', () => {
     it('should render app with error', () => {
-        const { asFragment } = renderWithRedux(<AppEg/>, {});
+        const { asFragment } = renderWithRedux(<App/>, {});
         expect(asFragment()).toMatchSnapshot();
     });
 });
